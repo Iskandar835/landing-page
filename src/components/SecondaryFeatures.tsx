@@ -4,39 +4,39 @@ import { Container } from '@/components/Container'
 
 const features = [
   {
-    name: 'Invest any amount',
+    name: 'Boostez la croissance de votre business',
     description:
-      'Whether it’s $1 or $1,000,000, we can put your money to work for you.',
+      'Un commerce physique devenu digital augmente ses ventes et élargit sa clientèle. Offrez à vos clients la possibilité de commander en ligne en quelques clics.',
     icon: DeviceArrowIcon,
   },
   {
-    name: 'Build a balanced portfolio',
+    name: 'Une application moderne',
     description:
-      'Invest in different industries to find the most opportunities to win huge.',
+      'Un design moderne et attractif renforce votre image de marque et votre crédibilité. Une expérience soignée montre que votre snack répond aux attentes des clients.',
     icon: DeviceCardsIcon,
   },
   {
-    name: 'Trade in real-time',
+    name: 'Une application optimisée et réactive',
     description:
-      'Get insider tips on big stock moves and act on them within seconds.',
+      'Facilitez la vie de vos clients avec une application simple, rapide et intuitive. En quelques clics, ils passent commande sans perdre de temps.',
     icon: DeviceClockIcon,
   },
   {
-    name: 'Profit from your network',
+    name: 'Un meilleur positionnement sur le marché',
     description:
-      'Invite new insiders to get tips faster and beat even other Pocket users.',
+      'Démarquez-vous de vos concurrents avec une solution digitale claire et efficace. Une application mobile est un atout stratégique pour attirer plus de clients.',
     icon: DeviceListIcon,
   },
   {
-    name: 'Encrypted and anonymized',
+    name: 'Profitez d’une application sécurisée',
     description:
-      'Cutting-edge security technology that even the NSA doesn’t know about keeps you hidden.',
+      'La cybersécurité est primordiale. Avec notre expertise, vous bénéficiez d’une application fiable qui protège les données de vos clients.',
     icon: DeviceLockIcon,
   },
   {
-    name: 'Portfolio tracking',
+    name: 'Suivi des commandes en temps réel',
     description:
-      'Watch your investments grow exponentially, leaving other investors in the dust.',
+      'Un tableau de bord intuitif permet à votre restaurant de suivre chaque commande en direct et de garder le contrôle.',
     icon: DeviceChartIcon,
   },
 ]
@@ -196,11 +196,12 @@ export function SecondaryFeatures() {
       <Container>
         <div className="mx-auto max-w-2xl sm:text-center">
           <h2 className="text-3xl font-medium tracking-tight text-gray-900">
-            Now is the time to build your portfolio.
+            C’est le moment de lancer votre app mobile
           </h2>
           <p className="mt-2 text-lg text-gray-600">
-            With typical market returns, you have to start young to secure your
-            future. With Pocket, it’s never too late to build your nest egg.
+            Dans un monde digital, rester à jour est essentiel pour répondre aux
+            attentes des clients. Une application performante et intuitive,
+            c’est proposer une solution moderne et efficace.
           </p>
         </div>
         <ul
