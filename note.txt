@@ -1,1 +1,6 @@
 SECTIONS A DELETE :
+- zone des avis 
+- zone des pricing 
+- zone FAQ 
+- login, downalds ( dans le header )
+- dossiers auth (page login et page register) 
