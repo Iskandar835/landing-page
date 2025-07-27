@@ -560,7 +560,10 @@ export function SecondaryFeatures() {
     >
       <Container>
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-3xl">
-          <h2 className="text-3xl font-medium tracking-tight text-white">
+          <h2
+            className="text-3xl font-medium tracking-tight text-white"
+            id="our-model"
+          >
             Notre model reponds à vos besoins
           </h2>
           <p className="mt-10 text-lg text-gray-400 lg:mt-8">

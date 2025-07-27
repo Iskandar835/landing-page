@@ -195,7 +195,10 @@ export function PrimaryFeatures() {
     >
       <Container>
         <div className="mx-auto max-w-2xl sm:text-center">
-          <h2 className="text-3xl font-medium tracking-tight text-gray-900">
+          <h2
+            className="text-3xl font-medium tracking-tight text-gray-900"
+            id="our-advantages"
+          >
             Pourquoi votre snack a besoin d’une application ?
           </h2>
           <p className="mt-2 text-lg text-gray-600">

@@ -13,7 +13,10 @@ export function CallToAction() {
       </div>
       <Container className="relative">
         <div className="mx-auto max-w-md sm:text-center">
-          <h2 className="text-3xl font-medium tracking-tight text-white sm:text-4xl">
+          <h2
+            className="text-3xl font-medium tracking-tight text-white sm:text-4xl"
+            id="contacts"
+          >
             Votre application n’attend plus
           </h2>
           <p className="mt-4 text-lg text-gray-300">
