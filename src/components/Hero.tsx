@@ -83,7 +83,7 @@ export function Hero() {
       <Container>
         <div className="lg:grid lg:grid-cols-12 lg:gap-x-8 lg:gap-y-14">
           <div className="relative z-10 mx-auto max-w-2xl lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6">
-            <h1 className="text-4xl font-medium tracking-tight text-gray-900">
+            <h1 className="text-3xl font-medium tracking-tight text-gray-900 lg:text-4xl">
               Chez nomDeSociete, nous développons des applications qui vous
               appartiennent !
             </h1>
