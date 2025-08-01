@@ -37,37 +37,88 @@ export function Footer() {
               <NavLinks />
             </nav>
           </div>
-          <div className="group relative -mx-4 flex items-center self-stretch p-4 transition-colors hover:bg-gray-100 sm:self-auto sm:rounded-2xl lg:mx-0 lg:self-auto lg:p-6">
-            <div className="relative flex h-24 w-24 flex-none items-center justify-center">
-              <QrCodeBorder className="absolute inset-0 h-full w-full stroke-gray-300 transition-colors group-hover:stroke-cyan-500" />
-              <Image src={qrCode} alt="" unoptimized />
-            </div>
-            <div className="ml-8 lg:w-64">
-              <p className="text-base font-semibold text-gray-900">
-                <Link href="#">
-                  <span className="absolute inset-0 sm:rounded-2xl" />
-                  Download the app
-                </Link>
-              </p>
-              <p className="mt-1 text-sm text-gray-700">
-                Scan the QR code to download the app from the App Store.
-              </p>
-            </div>
+          <div className="flex gap-6">
+            <a
+              href="#"
+              aria-label="lien vers facebook"
+              className="hover:text-cyan-500"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="lucide lucide-facebook-icon lucide-facebook"
+              >
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+              </svg>
+            </a>
+            <a
+              href="#"
+              aria-label="Lien vers linkedIn"
+              className="hover:text-cyan-500"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="lucide lucide-linkedin-icon lucide-linkedin"
+              >
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                <rect width="4" height="12" x="2" y="9" />
+                <circle cx="4" cy="4" r="2" />
+              </svg>
+            </a>
+            <a
+              href="#"
+              aria-label="Lien vers instagram"
+              className="hover:text-cyan-500"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="lucide lucide-instagram-icon lucide-instagram"
+              >
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+              </svg>
+            </a>
           </div>
         </div>
-        <div className="flex flex-col items-center border-t border-gray-200 pt-8 pb-12 md:flex-row-reverse md:justify-between md:pt-6">
-          <form className="flex w-full justify-center md:w-auto">
+        <div className="flex flex-col items-center border-t border-gray-200 pt-8 pb-6 md:flex-row-reverse md:justify-between md:pt-6 lg:pb-12">
+          <form className="flex flex-col justify-center gap-4 md:w-auto md:flex-row">
             <TextField
               type="email"
               aria-label="Email address"
-              placeholder="Email address"
+              placeholder="Votre email"
               autoComplete="email"
               required
               className="w-60 min-w-0 shrink"
             />
-            <Button type="submit" color="cyan" className="ml-4 flex-none">
-              <span className="hidden lg:inline">Join our newsletter</span>
-              <span className="lg:hidden">Join newsletter</span>
+            <Button type="submit" color="cyan" className="flex-none">
+              <span className="hidden lg:inline">
+                Rejoignez notre newsletter
+              </span>
+              <span className="lg:hidden">Rejoignez notre newsletter</span>
             </Button>
           </form>
           <p className="mt-6 text-sm text-gray-500 md:mt-0">

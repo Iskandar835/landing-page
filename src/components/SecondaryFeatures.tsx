@@ -232,56 +232,56 @@ function StocksScreen(props: ScreenProps) {
               name: 'Espèces',
               price: '39,90€',
               ref: 'CMD212',
-              color: '#25c54dff',
+              color: '#39FF14',
               logo: CashLogo,
             },
             {
               name: 'Carte bleu',
               price: '75,00€',
               ref: 'CMD211',
-              color: '#3587d3ff',
+              color: '#06b6d4',
               logo: CreditCardLogo,
             },
             {
               name: 'Carte bleu',
               price: '15,50€',
               ref: 'CMD210',
-              color: '#3587d3ff',
+              color: '#06b6d4',
               logo: CreditCardLogo,
             },
             {
               name: 'Carte bleu',
               price: '28,50€',
               ref: 'CMD209',
-              color: '#3587d3ff',
+              color: '#06b6d4',
               logo: CreditCardLogo,
             },
             {
               name: 'Espèces',
               price: '65,00€',
               ref: 'CMD208',
-              color: '#25c54dff',
+              color: '#39FF14',
               logo: CashLogo,
             },
             {
               name: 'Espèces',
               price: '10,00€',
               ref: 'CMD207',
-              color: '#25c54dff',
+              color: '#39FF14',
               logo: CashLogo,
             },
             {
               name: 'Carte bleu',
               price: '37,90€',
               ref: 'CMD206',
-              color: '#3587d3ff',
+              color: '#06b6d4',
               logo: CreditCardLogo,
             },
             {
               name: 'Espèces',
               price: '46,50€',
               ref: 'CMD205',
-              color: '#25c54dff',
+              color: '#39FF14',
               logo: CashLogo,
             },
           ].map((stock) => (
@@ -533,7 +533,7 @@ function FeaturesMobile() {
             key={featureIndex}
             className={clsx(
               'relative h-0.5 w-4 rounded-full',
-              featureIndex === activeIndex ? 'bg-gray-300' : 'bg-gray-500',
+              featureIndex === activeIndex ? 'bg-cyan-500' : 'bg-gray-500',
             )}
             aria-label={`Go to slide ${featureIndex + 1}`}
             onClick={() => {
